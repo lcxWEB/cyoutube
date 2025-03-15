@@ -1,4 +1,12 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+bunx create-next-app@15.1.6
+bunx --bun shadcn@2.1.8 init  
+bunx --bun shadcn@2.1.8 add --all
+bun add @clerk/nextjs@6.10.3     
+bun add drizzle-orm@0.39.0 @neondatabase/serverless@0.10.4 dotenv@16.4.7
+bun add -D drizzle-kit@0.30.3 tsx@4.19.2
+bunx drizzle-kit push 
+
+
 
 ## Getting Started
 
