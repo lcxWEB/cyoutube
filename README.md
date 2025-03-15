@@ -6,7 +6,11 @@ bun add drizzle-orm@0.39.0 @neondatabase/serverless@0.10.4 dotenv@16.4.7
 bun add -D drizzle-kit@0.30.3 tsx@4.19.2
 bunx drizzle-kit push 
 
+install ngrok
+ngrok config add-authtoken xxx
+ngrok http --url=giving-oddly-flea.ngrok-free.app 3000
 
+bun add concurrently@9.1.2
 
 ## Getting Started
 
