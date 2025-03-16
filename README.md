@@ -1,16 +1,30 @@
 bunx create-next-app@15.1.6
+
+## UI
 bunx --bun shadcn@2.1.8 init  
 bunx --bun shadcn@2.1.8 add --all
+
+## Clerk Auth
 bun add @clerk/nextjs@6.10.3     
+
+## Database PosgreSQL Drizzle
 bun add drizzle-orm@0.39.0 @neondatabase/serverless@0.10.4 dotenv@16.4.7
 bun add -D drizzle-kit@0.30.3 tsx@4.19.2
 bunx drizzle-kit push 
+bunx drizzle-kit studio
 
+## WebHook
 install ngrok
+https://dashboard.ngrok.com/domains
 ngrok config add-authtoken xxx
 ngrok http --url=giving-oddly-flea.ngrok-free.app 3000
 
 bun add concurrently@9.1.2
+
+bun add svix@1.45.1
+
+
+
 
 ## Getting Started
 
